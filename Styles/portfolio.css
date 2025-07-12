@@ -106,3 +106,39 @@ nav{
     padding: 10px 15px;
     display: block;
 }
+
+
+/* Action part */
+
+.act{
+    display: flex;
+    justify-content:center;
+}
+.action{
+    width: 1000px;
+    padding:50px;;
+    justify-content:space-between;
+    align-items:center
+}
+.act-dis{
+    display: flex;
+    justify-content: space-between;
+}
+.ac-head h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+.ac-head p{
+    font-size: 24 px;
+    font-weight: 400;
+    color:#252432 ;
+    opacity: 50%;
+}
+.btn3{
+    padding: 10px 20px;
+}
+.ac-img{
+    height: 328px;
+    width: 400px;
+    border-radius: 10%;
+}
