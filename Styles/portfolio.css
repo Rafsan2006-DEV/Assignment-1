@@ -179,3 +179,79 @@ nav{
     color: #000000;
     opacity: 50%;
 }
+
+/* Review Part */
+
+.cd-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.card-main{
+    width: 1000px 500px;
+    margin: 10px 50px;
+    justify-content: left;
+    
+}
+.card-main h1{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 42px;
+    color: #252432;
+    font-weight: 700;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 40px 60px;
+}
+.card-inner{
+    width: 00px 500px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.star1{
+    height: 20px;
+    margin-bottom: 20px;
+}
+.card h4{
+    font-size: 25px;
+    margin: 0px 5px;
+}
+.card p{
+    font-size: 12px;
+    margin: 5px;
+    color:#252432;
+    opacity: 50%;
+    padding: 0px 20px 0px 0px;
+}
+.card-img-set{
+    display: flex;
+}
+.com-dit h5{
+    margin: 5px;
+    padding: 0px;
+    color:#252432;
+    opacity: 60%;
+    font-weight: 100;
+}
+.com-dit p{
+    margin: 5px;
+    padding: 0px;
+    color:#252432;
+    opacity: 50%;
+    font-weight: 100;
+}
+.card-img1{
+    border-radius: 50%;
+    height: 30px;
+    margin-top: 5px;
+}
+.card:hover{
+    box-shadow: 8px 5px 2px rgb(238, 238, 238);
+    background-color: rgb(227, 239, 255);
+    transition: 0.5s;
+}
