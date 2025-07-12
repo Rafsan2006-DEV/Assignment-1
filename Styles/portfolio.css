@@ -115,7 +115,7 @@ nav{
 }
 .action{
     width: 1000px;
-    padding:50px;;
+    padding:50px;
     justify-content:space-between;
     align-items:center
 }
@@ -306,4 +306,54 @@ nav{
     width: 500px;
     border-radius: 20px;
     margin-bottom: 70px;
+}
+/* form Part */
+.frm-main{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.form-sec{
+    display:flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 50px 20px;
+    
+}
+.font-from{
+    font-size: 18;
+    font-weight: 500px;
+}
+.form input{
+    margin: 5px;
+}
+.form-head h1{
+    font-size: 97px;
+    font-weight: 700;
+}
+.in-item{
+    height: 70px;
+    border: none;
+    width: 500px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.in-item2{
+    height: 140px;
+    border: none;
+    width: 500px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.form-btn{
+    height: 50px;
+    width: 500px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+textarea{
+    resize: none;
 }
