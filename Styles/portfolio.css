@@ -13,7 +13,6 @@
   font-style: normal;
 }
 
-
 body{
     background-color: #f5f8ff;
     margin:  auto;
@@ -141,4 +140,42 @@ nav{
     height: 328px;
     width: 400px;
     border-radius: 10%;
+}
+
+/* Follower Part */
+
+.flo{
+    display: flex;
+    justify-content: center;
+}
+.follower{
+    width: 1000px;
+    background-color: #e5e7ff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0px 50px;
+
+}
+.user-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.follower h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.user h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.user p{
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
 }
