@@ -357,3 +357,38 @@ a{
 textarea{
     resize: none;
 }
+/*foooter Part*/
+
+.foot-main{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+.ft-main h1{
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 20px;
+}
+.ft-main p{
+    margin: 10px auto;
+    font-size: 15px;
+    color: #8987A1;
+    width: 500px;
+}
+.link a{
+    color: #8987A1;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.link a:hover{
+    color: rgb(179, 0, 255);
+    transition: 0.2s;
+}
